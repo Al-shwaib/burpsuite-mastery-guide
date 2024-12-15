@@ -1,4 +1,4 @@
-# دليل Burp Suite الشامل | Comprehensive Burp Suite Guide
+# Burp Suite Detailed Guide | دليل تفصيلي لـ Burp Suite
 
 [English](#english) | [العربية](#arabic)
 
@@ -6,59 +6,127 @@
 
 <div id="english">
 
-## English
+## Overview
+A comprehensive guide to Burp Suite, including detailed documentation, practical examples, and best practices for web application security testing.
 
-### 🔒 Overview
+## Quick Links
+- [Installation Guide](docs/basics/installation/README.md)
+- [Basic Usage](docs/basics/first-steps/README.md)
+- [Tools Documentation](docs/tools/README.md)
+- [Examples](examples/README.md)
 
-A comprehensive guide for using Burp Suite, covering all aspects from basics to advanced usage. This open-source project aims to provide high-quality educational resources in both Arabic and English.
+## Project Structure
+```
+burpsuite-detailed-guide/
+├── docs/                    # Main documentation
+│   ├── basics/             # Getting started guides
+│   ├── tools/              # Individual tools documentation
+│   └── advanced/           # Advanced topics
+│
+├── examples/               # Code examples
+│   ├── basic/             # Basic usage examples
+│   └── advanced/          # Advanced examples
+│
+├── resources/             # Project resources
+│   ├── images/            # Screenshots and diagrams
+│   ├── scripts/           # Helper scripts
+│   └── templates/         # Document templates
+│
+└── translations/          # Translations
+    └── ar/               # Arabic translations
+```
 
-### 📚 Guide Contents
+## Features
+- Comprehensive documentation in English and Arabic
+- Practical examples and use cases
+- Step-by-step tutorials
+- Best practices and security tips
+- Real-world testing scenarios
 
-- **Basic Usage**
-  - Setting up Burp Suite
-  - Using Burp Proxy
-  - Security scanning basics
+## Getting Started
+1. **Installation**
+   - Follow the [installation guide](docs/basics/installation/README.md)
+   - Configure your environment
+   - Set up SSL certificates
 
-- **Advanced Usage**
-  - Advanced scanning techniques
-  - Automation
-  - Best practices
+2. **Basic Usage**
+   - Learn the interface
+   - Configure proxy settings
+   - Start intercepting traffic
 
+3. **Advanced Topics**
+   - Custom configurations
+   - Advanced scanning techniques
+   - Extension development
 
-### 📄 License
+## Contributing
+We welcome contributions! Please see our [Contributing Guide](.github/CONTRIBUTING.md) for details.
 
+## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 </div>
 
 ---
 
-<div id="arabic" dir="rtl">
+<div dir="rtl" id="arabic">
 
-## العربية
+## نظرة عامة
+دليل شامل لـ Burp Suite، يتضمن توثيقاً مفصلاً، وأمثلة عملية، وأفضل الممارسات لاختبار أمان تطبيقات الويب.
 
-### 🔒 نظرة عامة
+## روابط سريعة
+- [دليل التثبيت](docs/basics/installation/README.md)
+- [الاستخدام الأساسي](docs/basics/first-steps/README.md)
+- [توثيق الأدوات](docs/tools/README.md)
+- [الأمثلة](examples/README.md)
 
-دليل شامل لاستخدام Burp Suite، يغطي جميع الجوانب من الأساسيات إلى الاستخدامات المتقدمة. هذا المشروع مفتوح المصدر ويهدف إلى توفير موارد تعليمية عالية الجودة باللغتين العربية والإنجليزية.
-
-### 📚 محتويات الدليل
-
-- **الاستخدام الأساسي**
-  - إعداد وتكوين Burp Suite
-  - استخدام Burp Proxy
-  - أساسيات الفحص الأمني
-
-- **الاستخدام المتقدم**
-  - تقنيات متقدمة في الفحص
-  - أتمتة العمليات
-  - أفضل الممارسات
-
-
-
-## الترخيص 📝
-
-هذا المشروع مرخص تحت رخصة MIT - انظر ملف [LICENSE](LICENSE) لمزيد من التفاصيل.
-
-</div>
-
+## هيكل المشروع
 ```
+burpsuite-detailed-guide/
+├── docs/                    # التوثيق الرئيسي
+│   ├── basics/             # أدلة البدء
+│   ├── tools/              # توثيق الأدوات الفردية
+│   └── advanced/           # المواضيع المتقدمة
+│
+├── examples/               # أمثلة برمجية
+│   ├── basic/             # أمثلة الاستخدام الأساسي
+│   └── advanced/          # أمثلة متقدمة
+│
+├── resources/             # موارد المشروع
+│   ├── images/            # لقطات الشاشة والرسوم البيانية
+│   ├── scripts/           # النصوص البرمجية المساعدة
+│   └── templates/         # قوالب المستندات
+│
+└── translations/          # الترجمات
+    └── ar/               # الترجمات العربية
+```
+
+## الميزات
+- توثيق شامل باللغتين الإنجليزية والعربية
+- أمثلة عملية وحالات استخدام
+- دروس تعليمية خطوة بخطوة
+- أفضل الممارسات ونصائح الأمان
+- سيناريوهات اختبار من العالم الواقعي
+
+## البدء
+1. **التثبيت**
+   - اتبع [دليل التثبيت](docs/basics/installation/README.md)
+   - قم بتكوين بيئتك
+   - قم بإعداد شهادات SSL
+
+2. **الاستخدام الأساسي**
+   - تعرف على الواجهة
+   - قم بتكوين إعدادات البروكسي
+   - ابدأ باعتراض حركة المرور
+
+3. **المواضيع المتقدمة**
+   - التكوينات المخصصة
+   - تقنيات الفحص المتقدمة
+   - تطوير الإضافات
+
+## المساهمة
+نرحب بالمساهمات! يرجى الاطلاع على [دليل المساهمة](.github/CONTRIBUTING.md) للحصول على التفاصيل.
+
+## الترخيص
+هذا المشروع مرخص بموجب رخصة MIT - راجع ملف [LICENSE](LICENSE) للحصول على التفاصيل.
+</div>
