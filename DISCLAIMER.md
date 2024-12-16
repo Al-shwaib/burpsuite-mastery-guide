@@ -1,6 +1,35 @@
 # ⚠️ إخلاء المسؤولية | Disclaimer
 
-[English](#english) | [العربية](#arabic)
+<div style="text-align: center; margin-bottom: 20px;">
+  <a href="#english" style="
+    text-decoration: none; 
+    margin: 0 10px; 
+    padding: 8px 15px; 
+    background-color: #f0f0f0; 
+    color: #333; 
+    border-radius: 20px; 
+    font-weight: bold; 
+    transition: all 0.3s ease;
+    border: 2px solid #e0e0e0;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  ">
+    🇬🇧 English
+  </a>
+  <a href="#arabic" style="
+    text-decoration: none; 
+    margin: 0 10px; 
+    padding: 8px 15px; 
+    background-color: #f0f0f0; 
+    color: #333; 
+    border-radius: 20px; 
+    font-weight: bold; 
+    transition: all 0.3s ease;
+    border: 2px solid #e0e0e0;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  ">
+    🇸🇦 العربية
+  </a>
+</div>
 
 <div id="english">
 
@@ -38,7 +67,7 @@ This guide is educational and unofficial, aimed at helping users understand and 
 
 </div>
 
-<div id="arabic" dir="rtl">
+<div id="arabic" dir="rtl" style="text-align: right;">
 
 ## العربية
 
